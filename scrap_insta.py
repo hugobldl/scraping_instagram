@@ -98,7 +98,7 @@ def moyenne(id, first, pseudo):
 
 		print(">Moyenne inscrite dans le fichier ! =======================================>")
 
-#Fonction nouveau pseudo *a titre d'exemple car variable local* cf. choix == '4'
+#Fonction nouveau pseudo
 def new_pseudo(user_data):
 
 	data_pseudo = str(user_data)
