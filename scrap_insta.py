@@ -195,7 +195,7 @@ def pivot(pseudo, first, id):
 		for post in posts:
 			owner = post['node']['owner']['username']
 
-			if not os.path.exists(owner) and  nbr < int(entree):
+			if not os.path.exists(owner) and  nbr < int(len(lst_amis)):
 
 				nbr += 1
 
